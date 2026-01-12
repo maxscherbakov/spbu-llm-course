@@ -1,0 +1,20 @@
+openai
+requests
+pandas
+python-dotenv
+numpy
+pymupdf
+rapidocr-onnxruntime
+langchain-core
+langchain-chroma
+langchain-experimental
+langchain-huggingface
+chromadb
+torch
+transformers
+sentence-transformers
+accelerate
+bitsandbytes
+
+# Указываем ссылку для CUDA 12, чтобы OCR работал на GPU
+onnxruntime-gpu --extra-index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-12/pypi/simple/
